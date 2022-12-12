@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ @import "skippr";
 
 *{
   margin:0;
@@ -81,20 +82,39 @@ main{
 
 .list-body{
   display:block;
-  
   color:gray;
   font-size:12px;
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
-  
+
 }
 
 .list-title{
   display:block;
-  
   font-size:18px;
   overflow:hidden;
   white-space:nowrap;
   text-overflow:ellipsis;
+}
+
+#container {
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.image1 {
+  background-image: url(test1.jpg);
+}
+.image2 {
+  background-image: url(test2.jpg);
+}
+.image3 {
+  background-image: url(test3.jpg);
+}
+.image4 {
+  background-image: url(test4.jpg);
+}
+.image5 {
+  background-image: url(test5.jpg);
 }
