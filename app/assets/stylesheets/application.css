@@ -15,6 +15,7 @@
  */
  @import "skippr";
 
+
 *{
   margin:0;
   padding:0;
@@ -29,7 +30,7 @@ header{
   border-top:solid 5px #000;
 }
 
-header,h1,nav,.list-comment{
+header,h1,nav,.list-comment,li{
   font-family:'Kuashan',cursive,sans-serif;
 }
 
@@ -118,3 +119,4 @@ main{
 .image5 {
   background-image: url(test5.jpg);
 }
+
