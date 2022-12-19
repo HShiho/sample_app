@@ -1,8 +1,5 @@
 /* global $ */
 
-let title = "JavaScriptが使えるようになりました。"
-alert(title);
-
 $(document).ready(function(){
   $('.jquery').on('click',function(){
     $(this).css('color','red');
@@ -17,7 +14,7 @@ $(document).ready(function(){
     $(this).addClass("active");
     $($(this).attr("href")).show();
     // タブクリック時のページリロードをキャンセル
-    event.preventDefault(); 
+    event.preventDefault();
   });
 });
 
