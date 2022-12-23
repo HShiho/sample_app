@@ -54,3 +54,22 @@
 .list-contents {
   margin: 0.5rem;
 }
+
+.test {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.test ul {
+  padding-left: 1rem;
+}
+
+.test ul .same {
+  color: #ff9800;
+}
+
+.test-1 {
+  list-style: square;
+  color: #009688;
+  font-size: 20px;
+}
