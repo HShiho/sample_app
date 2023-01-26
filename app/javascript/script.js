@@ -42,3 +42,9 @@ $(document).ready(function () {
     hidePrevious : false
   });
 });
+
+$(document).ready((function() {
+    $('.new-click').on('click',function(){
+      $(this).css('background-color','#00bcd463');
+    });
+}));

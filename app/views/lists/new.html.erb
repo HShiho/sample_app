@@ -8,13 +8,13 @@
   </ul>
 <% end %>
 
-<!--from_with-->
+<%# from_with %>
 <%= form_with model: @list,url: '/lists',method: :post do |f| %>
   <h4>タイトル</h4>
-  <%= f.text_field :title %>
+  <%= f.text_field :title, class:'new-click' %>
 
   <h4>本文</h4>
-  <%= f.text_area :body %>
+  <%= f.text_area :body, class:'new-click' %>
 
   <h4>画像</h4>
   <%= f.file_field :image,accept: "image/*" %>
