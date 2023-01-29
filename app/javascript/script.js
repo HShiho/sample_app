@@ -45,6 +45,6 @@ $(document).ready(function () {
 
 $(document).ready((function() {
     $('.new-click').on('click',function(){
-      $(this).css('background-color','#00bcd463');
+      $(this).css('background-color','#fdf1002b');
     });
 }));
