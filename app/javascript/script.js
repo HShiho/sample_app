@@ -48,3 +48,9 @@ $(document).ready((function() {
       $(this).css('background-color','#fdf1002b');
     });
 }));
+
+$(document).ready((function() {
+    $('.new-click').on('change',function(){
+      $(this).css('background-color','#fff');
+    });
+}));
