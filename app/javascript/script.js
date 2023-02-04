@@ -54,3 +54,9 @@ $(document).ready((function() {
       $(this).css('background-color','#fff');
     });
 }));
+
+$(function() {
+  $('.box1').on('click',function(){
+    $(this).slideUp()
+  });
+});
