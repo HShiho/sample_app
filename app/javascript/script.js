@@ -58,5 +58,8 @@ $(document).ready((function() {
 $(function() {
   $('.box1').on('click',function(){
     $(this).slideUp()
+    $(this).slideDown()
+    $(this).slideUp()
+    $(this).slideDown()
   });
 });
